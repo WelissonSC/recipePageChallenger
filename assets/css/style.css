@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(243,229,216,255);
+}
+
+.main_container {
+    background-color: rgba(255, 255, 255, 255);
+    border-radius: 2em;
+    margin: auto;
+    width: 55em;
+}
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
