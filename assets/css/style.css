@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -6,17 +7,51 @@
 
 body {
     background-color: rgba(243,229,216,255);
+    font-family: "outfit", 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: 0.9em;
 }
 
 .main_container {
     background-color: rgba(255, 255, 255, 255);
     border-radius: 2em;
-    margin: auto;
-    width: 55em;
+    margin: 15em auto;
+    padding: 3em;
+    width: 50em;
 }
 
 
+.main_image {
+    border-radius: 1em;
+    margin: auto;
+    width: 100%;
+}
 
+@font-face {
+    font-family: "outfit";
+    src: url(../fonts/outfit/Outfit-VariableFont_wght.ttf) format("truetype"),
+}
+
+@font-face {
+    font-family: "Young-serif";
+    src: url(../fonts/young-serif/YoungSerif-Regular.ttf) format("truetype");
+}
+
+
+.main_title {
+    font-family: "Young-serif", Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    color: rgba(57,56,54,255);
+    padding: 5% 0% 5% 0%;
+}
+
+.descrption {
+    font-family: "outfit", 'Courier New', Courier, monospace;
+    font-weight: normal;
+    color: rgba(57,56,54,255);
+    padding-bottom: 5%;
+}
 
 
 .attribution { font-size: 11px; text-align: center; }
